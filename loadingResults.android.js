@@ -61,7 +61,7 @@ var loadingResults = React.createClass({
 
         )
 	}    
-})
+});
  
 var styles = StyleSheet.create({
   container: {

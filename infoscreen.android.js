@@ -74,7 +74,7 @@ var Info = React.createClass({
     )
     
   }
-})
+});
  
 var styles = StyleSheet.create({
   container: {

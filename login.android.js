@@ -40,7 +40,7 @@ var Login = React.createClass({
       title: 'Signup',
       component: Signup,
       passProps: {myElement: "HI"}
-    })
+    });
     console.log(this.props.navigator);
   },
 
@@ -104,7 +104,7 @@ var Login = React.createClass({
       </View>
     );
   }
-})
+});
  
 var styles = StyleSheet.create({
     container: {
@@ -187,7 +187,7 @@ var styles = StyleSheet.create({
     //   backgroundColor: 'black',
     //   opacity: 0.5
     // }
-})
+});
 
 
  

@@ -33,7 +33,7 @@ var confirmDetails = React.createClass({
 
         )
 	}    
-})
+});
  
 var styles = StyleSheet.create({
   container: {

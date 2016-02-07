@@ -43,7 +43,7 @@ var ChildNav = React.createClass({
   loadResults: function(){
     var loadResults = require('./loadingResults.android');
 
-    console.log
+    console.log;
 
     this.props.navigator.push({
       title: 'Home',
@@ -105,7 +105,7 @@ var ChildNav = React.createClass({
       
     )
   }
-})
+});
  
 var styles = StyleSheet.create({
   container: {

@@ -97,7 +97,7 @@ var Signup = React.createClass({
     </Image>
     );
   }
-})
+});
  
 var styles = StyleSheet.create({
   container: {
