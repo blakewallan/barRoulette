@@ -180,13 +180,7 @@ var styles = StyleSheet.create({
     whiteFont: {
       color: '#FFF',
       fontSize: 20
-    },
-    // textInput: {
-    //   borderColor: 'black',
-    //   //border: 2,
-    //   backgroundColor: 'black',
-    //   opacity: 0.5
-    // }
+    }
 });
 
 
