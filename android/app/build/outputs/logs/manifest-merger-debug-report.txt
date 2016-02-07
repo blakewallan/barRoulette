@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:1:1-27:12
+	package
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:2:5-32
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.react:react-native:0.19.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [stupidnavshit:react-native-gmaps:unspecified] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/stupidnavshit/react-native-gmaps/unspecified/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.react:react-native:0.19.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:allowBackup
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:8:7-33
+	android:icon
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:theme
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:11:7-38
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:12:7-14:66
+	android:value
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:14:9-64
+	android:name
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:13:9-54
+activity#com.stupidnavshit.MainActivity
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:15:7-23:18
+	android:label
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:17:9-41
+	android:configChanges
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:16:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:24:7-84
+	android:name
+		ADDED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:24:17-81
+uses-sdk
+INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.react:react-native:0.19.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [stupidnavshit:react-native-gmaps:unspecified] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/stupidnavshit/react-native-gmaps/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.react:react-native:0.19.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:imagepipeline-okhttp:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fbcore:0.8.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.facebook.react:react-native:0.19.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.19.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from [com.facebook.react:react-native:0.19.1] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/AndroidManifest.xml:11:22-75
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:22:5-80
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/Blake/Desktop/barRoulette/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:20:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:23:5-25:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:24:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/AndroidManifest.xml:25:8-31
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] /Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:22:13-58
