@@ -6,7 +6,6 @@ var Dimensions = require('Dimensions');
 var windowSize = Dimensions.get('window');
 
 //Load images and such
-var bg = require('./img/beer.gif');
 var icon = require('./img/Beer-icon.png');
 
  
@@ -110,7 +109,7 @@ var styles = StyleSheet.create({
     container: {
         flexDirection: 'column',
         flex: 1,
-        backgroundColor: '#334D5C'
+        backgroundColor: '#66E893'
       },
 
     bg: {
@@ -155,7 +154,8 @@ var styles = StyleSheet.create({
     signup: {
       justifyContent: 'center',
       alignItems: 'center',
-      flex: .15
+      flex: .15,
+      marginBottom: 20
     },
     inputs: {
         marginTop: 1,

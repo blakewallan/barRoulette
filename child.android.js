@@ -87,9 +87,11 @@ var ChildNav = React.createClass({
          clickMarker={null}
         />
 
-
+        <View style={styles.container}>
           <Text>Find your location on the map</Text>
           <Text onPress={() => this.loadResults()}> Sign Up</Text>
+        </View>
+
 
         </View>
 
@@ -106,7 +108,8 @@ var ChildNav = React.createClass({
  
 var styles = StyleSheet.create({
   container: {
-    
+    backgroundColor: '#66E893',
+    height: windowSize.height / 2
   },
   text: {
     flex: 2,

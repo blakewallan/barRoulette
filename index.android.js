@@ -9,8 +9,11 @@ var {
   StyleSheet,
   Navigator,
   Text,
+  View,
+  Image
 } = React;
 
+var icon = require('./img/Beer-icon.png');
 
  
 var stupidnavshit = React.createClass({
@@ -56,7 +59,14 @@ var stupidnavshit = React.createClass({
     if (this.state.myKey === "loading"){
       return (
 
-        <Text>LOADING</Text>
+        <View style={styles.container}>
+          <View style={styles.iconContainer}>
+            <Image style={styles.icon} source={icon} />
+          </View>
+          <View style={styles.header}>
+            <Text style={styles.h1}> Picking Your Bar! </Text>
+          </View>
+        </View>
 
       )
     }
@@ -71,6 +81,52 @@ var stupidnavshit = React.createClass({
         renderScene={this._renderScene}/>
       )
     }
+  }
+});
+
+var styles = StyleSheet.create({
+  container: {
+    flexDirection: 'column',
+    flex: 1,
+    backgroundColor: '#334D5C'
+  },
+
+  //bg: {
+  //  position: 'absolute',
+  //  left: 0,
+  //  top: 0,
+  //  width: windowSize.width,
+  //  height: windowSize.height
+  //},
+
+  iconContainer: {
+    marginTop: 100,
+    alignItems: 'center'
+  },
+
+  icon: {
+    width: 200,
+    height: 200,
+    alignItems: 'center'
+  },
+
+  header: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: .5,
+  },
+
+  h1: {
+    fontSize: 60,
+    color: 'white'
+  },
+
+  greyFont: {
+    color: '#D8D8D8'
+  },
+  whiteFont: {
+    color: '#FFF',
+    fontSize: 20
   }
 });
  

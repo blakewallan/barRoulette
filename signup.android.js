@@ -25,7 +25,6 @@ var Signup = React.createClass({
       console.log(that);
         that.props.navigator.pop(that);
         return true;
-
     });
 
   },

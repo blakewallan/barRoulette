@@ -4,6 +4,8 @@ var React = require('react-native');
 
 var Dimensions = require('Dimensions');
 var windowSize = Dimensions.get('window');
+
+var icon = require('./img/Beer-icon.png');
  
 var {
   AsyncStorage,
@@ -11,8 +13,7 @@ var {
   View,
   TouchableHighlight,
   Text,
-  MapView,
-  BackAndroid
+  Image
 } = React;
  
 var loadingResults = React.createClass({
@@ -31,12 +32,21 @@ var loadingResults = React.createClass({
         var bars = (JSON.parse(responseText).results);
         var rand = Math.floor((Math.random() * bars.length) + 1);
         var theBar = bars[rand];
-        console.log(theBar);
-        this.props.navigator.push({
-            title: 'BAR',
-            component: confirmDetails,
-            passProps: {bar: theBar}
+        var endLat = theBar.geometry.location.lat;
+        var endLng = theBar.geometry.location.lng;
+        fetch('https://api.uber.com/v1/estimates/price?start_latitude='+ lat +'&start_longitude='+ lng +'&end_latitude='+ endLat +'&end_longitude='+ endLng +'&server_token=rrbj2kEDJN7cbRojTjG7rjzyeXmio_u1V_on544L')
+          .then((response) => response.text())
+          .then((responseText) => {
+            console.log(responseText);
+            this.props.navigator.push({
+              title: 'BAR',
+              component: confirmDetails,
+              passProps: {bar: theBar}
+            })
           })
+        .catch((error) => {
+          console.warn(error)
+        })
       })
       .catch((error) => {
       console.warn(error);
@@ -45,16 +55,23 @@ var loadingResults = React.createClass({
 	},
 
   componentDidMount: function() {
-    this.callAPI();
+    setTimeout( () => {
+      this.callAPI();
+    },3000);
+
   },
   
   render: function() {
 
       return (
 
-     	<View>
-
-          <Text>Find your location on the map</Text>
+        <View style={styles.container}>
+          <View style={styles.iconContainer}>
+            <Image style={styles.icon} source={icon} />
+          </View>
+          <View style={styles.header}>
+            <Text style={styles.h1}> Picking Your Bar! </Text>
+          </View>
         </View>
 
         )
@@ -63,18 +80,47 @@ var loadingResults = React.createClass({
  
 var styles = StyleSheet.create({
   container: {
-    
+    flexDirection: 'column',
+    flex: 1,
+    backgroundColor: '#66E893'
   },
-  text: {
-    flex: 2,
-    fontSize: 18,
-    color: '#fff'
+
+  bg: {
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    width: windowSize.width,
+    height: windowSize.height
   },
-  button: {
-    
+
+  iconContainer: {
+    marginTop: 100,
+    alignItems: 'center'
   },
-  btnText: {
-    
+
+  icon: {
+    width: 200,
+    height: 200,
+    alignItems: 'center'
+  },
+
+  header: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: .5,
+  },
+
+  h1: {
+    fontSize: 60,
+    color: 'white'
+  },
+
+  greyFont: {
+    color: '#D8D8D8'
+  },
+  whiteFont: {
+    color: '#FFF',
+    fontSize: 20
   }
 });
  
