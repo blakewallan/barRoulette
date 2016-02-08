@@ -2,55 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-f761bde41c946b2c1ce41f2e12db5db02257052b.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-b6a8f09c4536fcc5082159d0f7d508c5d0775ab9.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="845a5b3a624946b2068963ba656c117fc453701c">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-37b61f5e15e45fe87a86284e7c2e54fb47677703.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d1ad89d55d86e7d9b753ca9d028aa14a83c18006">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-37c5f02095be05da2d3c34bed36e9f9a3c9fe6a8.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="845a5b3a624946b2068963ba656c117fc453701c">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-60c7633ec1a61c9123e982275a94c16c17f2be7f.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-9b6bc07b41d5e406802434f90b6c768a286cf712.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-6dfefa325bf5d9b265f33e14d403d448dab87339.jar" />
-    </item>
-    <item
         jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -58,102 +9,18 @@
         <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-727e82eb22cca723e823a7e894b99a3ebd694d6a.jar" />
     </item>
     <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-2820538f6b7f418cee964565268c01a6469de148.jar" />
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-8110f81740137f0edfc7d2f86612fd1d84c64274.jar" />
     </item>
     <item
-        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/stupidnavshit/react-native-gmaps/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-ac184d50c8d6dafacf5724522c3374fd4d8fae67.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-1198cd24aa304a37d52212001f8f3d7dc5e44b4b.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-2f6df272279d822d1d451332e419d615863180d8.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-79fdc4cd9411a3c43a585ce4be0b5e091e57998a.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-72a9e6f248e77d05015f4f9426d5fc47625cef9c.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-27884731f4a529204f7d6b5327c0713c3f60acc4.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-eb02457fdcafdc5ebaf0fc1f521d570e94a49bcb.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-4a707045a50dd7008add12dd1e286ad57cd34feb.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-fb1a5837dd0f6ee41cff198c3dc405cb4a0ab5d1.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/commons-cli-1.2-4416b93f2e52797f6cfbd943df39c5e2192aea2a.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-d885929970ed675ae6d65a966277158999e07b1d.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-05faa01bfb94f48d7a01c610ab5c0de79495e7fd.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-88538b17fc47715b3d9bf20faf5e46eefe2ae94c.jar" />
+        sha1="6bf7ee49234a14c47b1ea1a8ac62cc55de1553d0">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-f8daffa434533b80f3d87f3e9acdc36551bd89d8.jar" />
     </item>
     <item
         jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.2.0/1d6cdb8ce8185b8b23213fad48a83987fb6d2d67/stetho-1.2.0.jar"
@@ -170,6 +37,146 @@
         <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-826f95ef40d01e961e34cfe442c5a9f490aaa8a3.jar" />
     </item>
     <item
+        jar="/usr/local/Cellar/android-sdk/24.4.1_1/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-317c242139e7eff97a4a7374f577271525a64de6.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/commons-cli-1.2-4416b93f2e52797f6cfbd943df39c5e2192aea2a.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-79fdc4cd9411a3c43a585ce4be0b5e091e57998a.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-2820538f6b7f418cee964565268c01a6469de148.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-1198cd24aa304a37d52212001f8f3d7dc5e44b4b.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-9b6bc07b41d5e406802434f90b6c768a286cf712.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d1ad89d55d86e7d9b753ca9d028aa14a83c18006">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-37c5f02095be05da2d3c34bed36e9f9a3c9fe6a8.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-c6b261224159269accb46dbe9230111747d10370.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/stupidnavshit/RNWebView/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a27f06ff1a89229497b6db44648694c285742a2">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-bdc8ce78bc9efa2e842a32865fc18b86ac1b5a87.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-27884731f4a529204f7d6b5327c0713c3f60acc4.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-88538b17fc47715b3d9bf20faf5e46eefe2ae94c.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d1ad89d55d86e7d9b753ca9d028aa14a83c18006">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-09e9ef5392db9290d67e9cf647e679490ce76b1d.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-eb02457fdcafdc5ebaf0fc1f521d570e94a49bcb.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-d885929970ed675ae6d65a966277158999e07b1d.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-f761bde41c946b2c1ce41f2e12db5db02257052b.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-4a707045a50dd7008add12dd1e286ad57cd34feb.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/stupidnavshit/react-native-gmaps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c02473ade16306b14ede6c69dbd2e1a003ae3ec8">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-2b52520ec18e21218a7644c693ed128761c25986.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp/1.2.0/6c5c9380e245c4ff5be2b2a49dcbb0200c39798e/stetho-okhttp-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/stetho-okhttp-1.2.0-257976703fb5eb784e6d0659a3aa5b9d8d93f27e.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-b33a7c44f841f245ae2d0f563b8d22bd6b1f333b.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-6dfefa325bf5d9b265f33e14d403d448dab87339.jar" />
+    </item>
+    <item
         jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -177,18 +184,25 @@
         <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-15f19039c28f920f0368951eb43786bcba193187.jar" />
     </item>
     <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-9202f7e5c64b7b785b3575f46eb20997840fa03a.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-1f8bb75327b9b1a067c022b735905959d2da22e5.jar" />
     </item>
     <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/stupidnavshit/react-native-gmaps/unspecified/jars/classes.jar"
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="6bf7ee49234a14c47b1ea1a8ac62cc55de1553d0">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-f8daffa434533b80f3d87f3e9acdc36551bd89d8.jar" />
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-fb1a5837dd0f6ee41cff198c3dc405cb4a0ab5d1.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-489e40e4812dbacca6dc9d7bcca116082712e1e1.jar" />
     </item>
     <item
         jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/jars/libs/infer-annotations-1.5.jar"
@@ -205,18 +219,67 @@
         <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-10f6d9e70676037d1edad5be8a1eb58c40fca038.jar" />
     </item>
     <item
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-2f6df272279d822d1d451332e419d615863180d8.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-9202f7e5c64b7b785b3575f46eb20997840fa03a.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-ac184d50c8d6dafacf5724522c3374fd4d8fae67.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-60c7633ec1a61c9123e982275a94c16c17f2be7f.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-b6a8f09c4536fcc5082159d0f7d508c5d0775ab9.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-05faa01bfb94f48d7a01c610ab5c0de79495e7fd.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-37b61f5e15e45fe87a86284e7c2e54fb47677703.jar" />
+    </item>
+    <item
+        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-72a9e6f248e77d05015f4f9426d5fc47625cef9c.jar" />
+    </item>
+    <item
         jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
         <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-a19daf080861db3c789e68e0d1c0c70f3c4410c1.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-0fc4c26f2636f856d027b00368e490c6091e88f2.jar" />
     </item>
     <item
         jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
@@ -226,67 +289,11 @@
         <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-d86771f58a8e4d85ba3b46a3da65ebf9e9c8bd4e.jar" />
     </item>
     <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-1f8bb75327b9b1a067c022b735905959d2da22e5.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-c6b261224159269accb46dbe9230111747d10370.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/stupidnavshit/react-native-gmaps/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c02473ade16306b14ede6c69dbd2e1a003ae3ec8">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-2b52520ec18e21218a7644c693ed128761c25986.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jar="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-8110f81740137f0edfc7d2f86612fd1d84c64274.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-b33a7c44f841f245ae2d0f563b8d22bd6b1f333b.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp/1.2.0/6c5c9380e245c4ff5be2b2a49dcbb0200c39798e/stetho-okhttp-1.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/stetho-okhttp-1.2.0-257976703fb5eb784e6d0659a3aa5b9d8d93f27e.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d1ad89d55d86e7d9b753ca9d028aa14a83c18006">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-09e9ef5392db9290d67e9cf647e679490ce76b1d.jar" />
-    </item>
-    <item
-        jar="/usr/local/Cellar/android-sdk/24.4.1_1/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-317c242139e7eff97a4a7374f577271525a64de6.jar" />
-    </item>
-    <item
-        jar="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
-        <dex dex="/Users/Blake/Desktop/barRoulette/android/app/build/intermediates/pre-dexed/debug/classes-489e40e4812dbacca6dc9d7bcca116082712e1e1.jar" />
+        <dex dex="/Users/Blake/Desktop/stupidnavshit/android/app/build/intermediates/pre-dexed/debug/classes-0fc4c26f2636f856d027b00368e490c6091e88f2.jar" />
     </item>
 
 </items>

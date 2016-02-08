@@ -12,6 +12,7 @@
     "react-native-maps": "^0.3.0",
     "react-native-scrollable-tab-view": "^0.3.5",
     "react-native-spring-carousel": "^0.3.3",
-    "react-native-swiper": "^1.4.3"
+    "react-native-swiper": "^1.4.3",
+    "react-native-webview-android": "^1.0.12"
   }
 }

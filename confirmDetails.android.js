@@ -6,6 +6,7 @@ var Dimensions = require('Dimensions');
 var windowSize = Dimensions.get('window');
 
 var uberBtn = require('./img/uberBtn.png');
+var icon = require('./img/Beer-icon.png');
  
 var {
   AsyncStorage,
@@ -14,19 +15,41 @@ var {
   TouchableHighlight,
   Text,
   BackAndroid,
-  Image
-} = React;
+  Image,
+  WebView
+  } = React;
  
 var confirmDetails = React.createClass({
 
 
   componentDidMount: function() {
     var that = this;
-    BackAndroid.addEventListener('hardwareBackPress', function() {
+    BackAndroid.addEventListener('hardwareBackPress', function () {
       console.log(that);
       that.props.navigator.pop(that);
       return true;
     })
+  },
+
+  getInitialState: function() {
+    return {
+      url: 'http://www.google.com'
+    };
+  },
+
+  openUber: function(){
+    var uberView = require('./uberView.android');
+    var userLat = (this.props.route.passProps.userCoords.lat);
+    var userLng = (this.props.route.passProps.userCoords.lng);
+    var destLat = (this.props.route.passProps.destCoords.lat);
+    var destLng = (this.props.route.passProps.destCoords.lng);
+
+    this.props.navigator.push({
+      title: 'BAR',
+      component: uberView,
+      passProps: {userLat: userLat, userLng: userLng, destLat: destLat, destLng: destLng}
+    })
+
   },
   
   render: function() {
@@ -34,18 +57,20 @@ var confirmDetails = React.createClass({
       return (
 
       <View style={styles.container}>
+        <View style={styles.iconContainer}>
+          <Image style={styles.icon} source={icon} />
+        </View>
         <View style={styles.header}>
           <Text style={styles.h1}> Ready to go? </Text>
         </View>
         <View style={styles.iconContainer}>
-          <Image style={styles.icon} source={uberBtn} />
-        </View>
-        <View>
-          <Text>{this.props.route.passProps.bar.name}</Text>
+          <Image style={styles.uberBtn} source={uberBtn} >
+            <View>
+              <Text style={styles.whiteFont} onPress={() => this.openUber()}> {this.props.route.passProps.price} </Text>
+            </View>
+          </Image>
         </View>
       </View>
-
-
 
         )
 	}    
@@ -55,15 +80,7 @@ var styles = StyleSheet.create({
   container: {
     flexDirection: 'column',
     flex: 1,
-    backgroundColor: '#66E893'
-  },
-
-  bg: {
-    position: 'absolute',
-    left: 0,
-    top: 0,
-    width: windowSize.width,
-    height: windowSize.height
+    backgroundColor: '#400017'
   },
 
   iconContainer: {
@@ -72,17 +89,23 @@ var styles = StyleSheet.create({
   },
 
   icon: {
-    width: windowSize.width,
-    height: 100,
+    width: 200,
+    height: 200,
     padding: 20,
     flex: .5,
     alignItems: 'center'
   },
 
+  uberBtn: {
+    width: windowSize.width,
+    height: 100,
+    padding: 20,
+    flex: .2,
+    alignItems: 'center'
+  },
+
   header: {
-    justifyContent: 'center',
     alignItems: 'center',
-    flex: .5,
   },
 
   h1: {
@@ -90,44 +113,13 @@ var styles = StyleSheet.create({
     color: 'white'
   },
 
-  mark: {
-    width: 200,
-    height: 200
-  },
-  signin: {
-    backgroundColor: '#D5080D',
-    padding: 20,
-    alignItems: 'center'
-  },
-  signup: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    flex: .15,
-    marginBottom: 20
-  },
-  inputs: {
-    marginTop: 1,
-    marginBottom: 1,
-    flex: .35,
-    backgroundColor: 'white',
-    opacity: 0.5
-  },
-  textInput: {
-    backgroundColor: 'white',
-    opacity: 0.5,
-    marginBottom: 10
-  },
-
-  forgotContainer: {
-    alignItems: 'flex-end',
-    padding: 15,
-  },
   greyFont: {
     color: '#D8D8D8'
   },
   whiteFont: {
     color: '#FFF',
-    fontSize: 20
+    fontSize: 30,
+    marginTop: 20
   }
 });
  

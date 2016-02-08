@@ -37,11 +37,11 @@ var loadingResults = React.createClass({
         fetch('https://api.uber.com/v1/estimates/price?start_latitude='+ lat +'&start_longitude='+ lng +'&end_latitude='+ endLat +'&end_longitude='+ endLng +'&server_token=rrbj2kEDJN7cbRojTjG7rjzyeXmio_u1V_on544L')
           .then((response) => response.text())
           .then((responseText) => {
-            console.log(responseText);
+            var price = (JSON.parse(responseText).prices[0].estimate);
             this.props.navigator.push({
               title: 'BAR',
               component: confirmDetails,
-              passProps: {bar: theBar}
+              passProps: {bar: theBar, price: price, userCoords: {lat: lat, lng: lng}, destCoords: {lat: endLat, lng: endLng}}
             })
           })
         .catch((error) => {
@@ -70,7 +70,7 @@ var loadingResults = React.createClass({
             <Image style={styles.icon} source={icon} />
           </View>
           <View style={styles.header}>
-            <Text style={styles.h1}> Picking Your Bar! </Text>
+            <Text style={styles.h1}> Picking Your Bar... </Text>
           </View>
         </View>
 
