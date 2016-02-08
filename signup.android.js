@@ -11,17 +11,30 @@ var {
   Text,
   Image,
   TextInput,
+  BackAndroid
 } = React;
  
 var Firebase = require('firebase');
 
 var Signup = React.createClass({
 
+  componentDidMount: function(){
+    console.log('works');
+    var that = this;
+    BackAndroid.addEventListener('hardwareBackPress', function() {
+      console.log(that);
+        that.props.navigator.pop(that);
+        return true;
+
+    });
+
+  },
+
   getInitialState: function() {
     return {
       email: '',
       password: '',
-      firebaseRef: new Firebase('boiling-heat-8965.firebaseIO.com'),
+      firebaseRef: new Firebase('boiling-heat-8965.firebaseIO.com')
     }
   },
 

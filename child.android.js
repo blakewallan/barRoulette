@@ -12,7 +12,6 @@ var {
   View,
   TouchableHighlight,
   Text,
-  AsyncStorage,
   MapView
 } = React;
  
@@ -21,7 +20,7 @@ var ChildNav = React.createClass({
   getInitialState: function() {
     return {
       initialPosition: 'unknown',
-      lastPosition: 'unknown',
+      lastPosition: 'unknown'
     };
   },
 
@@ -42,8 +41,6 @@ var ChildNav = React.createClass({
 
   loadResults: function(){
     var loadResults = require('./loadingResults.android');
-
-    console.log;
 
     this.props.navigator.push({
       title: 'Home',

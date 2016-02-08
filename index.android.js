@@ -1,8 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- */
-
 'use strict';
  
 var React = require('react-native');
@@ -16,13 +11,7 @@ var {
   Text,
 } = React;
 
-BackAndroid.addEventListener('hardwareBackPress', () => {
-  if (_navigator && _navigator.getCurrentRoutes().length > 1) {
-    _navigator.pop();
-    return true;
-  }
-  return false;
-});
+
  
 var stupidnavshit = React.createClass({
 
@@ -37,17 +26,20 @@ var stupidnavshit = React.createClass({
   },
 
   getInitialState: function(){
-      return {'myKey': 'loading' };
+    return {'myKey': 'loading' };
+
   },
 
   _renderScene: function(route, navigator) {
     var Component = route.component;
+
     return (
       <Component {...route.props} navigator={navigator} route={route}/>
     );
   },
 
   render: function() {
+
 
     if (this.state.myKey === "myValue") {
       var Child = require('./child.android');
@@ -67,7 +59,7 @@ var stupidnavshit = React.createClass({
         <Text>LOADING</Text>
 
       )
-    } 
+    }
     else {
       var Login = require('./login.android');
       return (
@@ -81,7 +73,6 @@ var stupidnavshit = React.createClass({
     }
   }
 });
-
  
 AppRegistry.registerComponent('stupidnavshit', () => stupidnavshit);
 

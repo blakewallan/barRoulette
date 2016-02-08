@@ -11,40 +11,38 @@ var {
   View,
   TouchableHighlight,
   Text,
-  AsyncStorage,
-  MapView
+  MapView,
+  BackAndroid
 } = React;
  
 var loadingResults = React.createClass({
 
 	callAPI: function(){
-    var clientID = '3TNAEDBR0Y0M40L4NJQLWD20N4MJZB5ZVUEXMMJQ0KL3N5MP';
-    var clientSecret = 'T4AUCHVFS5VAL1KEGMQ2QJ5FQGZQOEQ40AMAFKRNKCK1VGFL';
+    var key = 'AIzaSyCt9duN2xXtOGOPuBegUgIuLC4sMjAM5f0';
 
 		var lat = this.props.route.passProps.location.lat;
 		var lng = this.props.route.passProps.location.lng;
 
     var confirmDetails = require('./confirmDetails.android');
 
-    fetch('https://api.foursquare.com/v2/venues/search?client_id='+ clientID +'&client_secret='+ clientSecret +'&v=20130815%20&categoryId=4bf58dd8d48988d116941735&radius=1000&ll='+ lat +','+ lng)
+    fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+ lat +','+ lng +'&radius=500&types=bar&opennow&key='+ key)
       .then((response) => response.text())
       .then((responseText) => {
-        var bars = (JSON.parse(responseText).response.venues);
+        var bars = (JSON.parse(responseText).results);
         var rand = Math.floor((Math.random() * bars.length) + 1);
         var theBar = bars[rand];
         console.log(theBar);
         this.props.navigator.push({
-          title: 'BAR',
-          component: confirmDetails,
-          passProps: {bar: theBar}
-        })
+            title: 'BAR',
+            component: confirmDetails,
+            passProps: {bar: theBar}
+          })
       })
       .catch((error) => {
-        console.warn(error);
-      });
+      console.warn(error);
+    });
 
 	},
-
 
   componentDidMount: function() {
     this.callAPI();
@@ -70,7 +68,7 @@ var styles = StyleSheet.create({
   text: {
     flex: 2,
     fontSize: 18,
-    color: '#fff',
+    color: '#fff'
   },
   button: {
     

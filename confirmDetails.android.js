@@ -11,21 +11,19 @@ var {
   View,
   TouchableHighlight,
   Text,
-  AsyncStorage,
-  MapView
 } = React;
  
 var confirmDetails = React.createClass({
 
 
   componentDidMount: function() {
-    console.log(this.props.route.passProps.bar)
+    console.log(this.props.route.passProps.name);
+    console.log("THING");
   },
   
   render: function() {
 
       return (
-
      	<View>
 
           <Text>{this.props.route.passProps.bar.name}</Text>
@@ -42,7 +40,7 @@ var styles = StyleSheet.create({
   text: {
     flex: 2,
     fontSize: 18,
-    color: '#fff',
+    color: '#fff'
   },
   button: {
     
