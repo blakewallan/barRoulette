@@ -23,9 +23,9 @@ var stupidnavshit = React.createClass({
       this.setState({'myKey': value});
     }).done();
 
-    // AsyncStorage.clear(function(res){
-    //   console.log(res);
-    // })
+     //AsyncStorage.clear(function(res){
+     //  console.log(res);
+     //})
   },
 
   getInitialState: function(){

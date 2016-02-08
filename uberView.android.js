@@ -35,7 +35,7 @@ var confirmDetails = React.createClass({
     var destLng = this.props.route.passProps.destLng;
     console.log(userLat);
     return {
-      url: 'https://m.uber.com/sign-up?&pickup_latitude='+ userLat +'&pickup_longitude='+ userLng +'&dropoff_latitude='+ destLat +'&dropoff_longitud='+ destLng +'&client_id=rBA_azhU7byTRXyl_Xt9hoK1z9aTfydC'
+      url: 'https://m.uber.com/sign-up?&pickup_latitude='+ userLat +'&pickup_longitude='+ userLng +'&dropoff_latitude='+ destLat +'&dropoff_longitude='+ destLng +'&dropoff_nickname=TheBar&dropoff_address=101SHi&client_id=rBA_azhU7byTRXyl_Xt9hoK1z9aTfydC'
     };
   },
 

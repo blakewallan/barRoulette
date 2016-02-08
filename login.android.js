@@ -64,7 +64,7 @@ var Login = React.createClass({
 
         that.props.navigator.push({
           title: 'Home',
-          component: Child,
+          component: Info,
           passProps: {myElement: userData}
         })
       }})
@@ -147,7 +147,7 @@ var styles = StyleSheet.create({
         height: 200
     },
     signin: {
-        backgroundColor: '#D5080D',
+        backgroundColor: '#93627c',
         padding: 20,
         alignItems: 'center'
     },

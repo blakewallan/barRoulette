@@ -34,6 +34,7 @@ var loadingResults = React.createClass({
         var theBar = bars[rand];
         var endLat = theBar.geometry.location.lat;
         var endLng = theBar.geometry.location.lng;
+        console.log(theBar);
         fetch('https://api.uber.com/v1/estimates/price?start_latitude='+ lat +'&start_longitude='+ lng +'&end_latitude='+ endLat +'&end_longitude='+ endLng +'&server_token=rrbj2kEDJN7cbRojTjG7rjzyeXmio_u1V_on544L')
           .then((response) => response.text())
           .then((responseText) => {

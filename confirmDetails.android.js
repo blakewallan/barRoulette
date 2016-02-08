@@ -119,7 +119,8 @@ var styles = StyleSheet.create({
   whiteFont: {
     color: '#FFF',
     fontSize: 30,
-    marginTop: 20
+    marginTop: 10,
+    textAlign: 'right'
   }
 });
  

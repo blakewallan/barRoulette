@@ -52,27 +52,25 @@ var Info = React.createClass({
         onPress={this.onPressSlide}
         >
 
-           <View style={{width: width,height:height,backgroundColor:'#AA3939',}}>
+           <View style={{width: width,height:height,backgroundColor:'#EBAF27'}}>
              <Text style={styles.title}>Page 1</Text>
            </View>
 
 
-           <View style={{width:width,height:height,backgroundColor:'#bbb',}}>
+           <View style={{width:width,height:height,backgroundColor:'#bbb'}}>
              <Text>Page 2</Text>
            </View>
 
 
-           <View style={{width:width,height:height,backgroundColor:'#ccc',}}>
+           <View style={{width:width,height:height,backgroundColor:'#ccc'}}>
              <Text>Page 3</Text>
              
            </View>
-
 
         </Carousel>
        </View>
 
     )
-    
   }
 });
  

@@ -89,7 +89,9 @@ var ChildNav = React.createClass({
 
         <View style={styles.container}>
           <Text>Find your location on the map</Text>
-          <Text onPress={() => this.loadResults()}> Sign Up</Text>
+          <View style={styles.signin}>
+            <Text style={styles.whiteFont} onPress={() => this.loadResults()}>Find your bar</Text>
+          </View>
         </View>
 
 
@@ -121,6 +123,15 @@ var styles = StyleSheet.create({
   },
   btnText: {
     
+  },
+  signin: {
+    backgroundColor: '#93627c',
+    padding: 20,
+    alignItems: 'center'
+  },
+  whiteFont: {
+    color: '#FFF',
+    fontSize: 20
   }
 });
  

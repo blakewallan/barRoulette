@@ -77,7 +77,6 @@ var Signup = React.createClass({
   render: function() {
 
     return (
-      <Image source={require('./img/beerlabels.png')} style={styles.backgroundImage}>
 
     <View style={styles.container}>
 
@@ -106,7 +105,6 @@ var Signup = React.createClass({
         <Text>Signup</Text>
         </TouchableHighlight>
       </View>
-    </Image>
     );
   }
 });
@@ -116,7 +114,7 @@ var styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'transparent'
+    backgroundColor: '#400017'
   },
   welcome: {
     fontSize: 20,
