@@ -14,7 +14,6 @@ var {
 } = React;
 
 var icon = require('./img/Beer-icon.png');
-
  
 var stupidnavshit = React.createClass({
 
@@ -64,7 +63,7 @@ var stupidnavshit = React.createClass({
             <Image style={styles.icon} source={icon} />
           </View>
           <View style={styles.header}>
-            <Text style={styles.h1}> Picking Your Bar! </Text>
+            <Text style={styles.h1}> Loading </Text>
           </View>
         </View>
 

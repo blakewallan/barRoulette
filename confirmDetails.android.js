@@ -33,7 +33,7 @@ var confirmDetails = React.createClass({
 
   getInitialState: function() {
     return {
-      url: 'http://www.google.com'
+      url: 'IDK'
     };
   },
 
@@ -110,7 +110,8 @@ var styles = StyleSheet.create({
 
   h1: {
     fontSize: 60,
-    color: 'white'
+    color: 'white',
+    fontFamily: 'lucida grande'
   },
 
   greyFont: {

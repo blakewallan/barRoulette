@@ -109,7 +109,7 @@ var styles = StyleSheet.create({
     container: {
         flexDirection: 'column',
         flex: 1,
-        backgroundColor: '#66E893'
+        backgroundColor: '#0B0B0D'
       },
 
     bg: {
@@ -139,7 +139,8 @@ var styles = StyleSheet.create({
 
     h1: {
       fontSize: 60,
-      color: 'white'
+      color: 'white',
+      fontFamily: 'lucida grande'
     },
 
     mark: {
