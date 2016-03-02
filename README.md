@@ -1,4 +1,6 @@
-# barRoulette
+# Bar Roulette
+
+![alt text](http://i.imgur.com/klBGbIF.png "Bar Roulette")
 
 Bar Roulette is a cross platform mobile application built in React Native. Bar Roulette finds all open bars near the user and selects one by random. It shows the user the price to take an Uber to the selected bar but does not reveal the selection. The user is then able to order and Uber to the random bar.
 
